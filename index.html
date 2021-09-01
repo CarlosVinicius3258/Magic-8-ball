@@ -3,6 +3,7 @@
     <head>
         <link rel="stylesheet" href="index.css">
         
+        <link rel="shortcut icon" href="./src/favicon-32x32.png">
     </head>
     
     <body>
@@ -10,7 +11,7 @@
             <input id="question" name="quastion" type="text" placeholder="Am I a Nerd?">
             <div class="adviceEye" id="adviceEye">
                 <audio id="audio">
-                    <source src="dice.mp3" type="audio/mpeg">
+                    <source src="./src/dice.mp3" type="audio/mpeg">
                 </audio>
                 
                 <div id="eightCircle">
@@ -24,7 +25,8 @@
             
             <button id="adviceBtn" disabled>Advise me!</button>
         </div>
-        <script src="index.pack.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/randomcolor/0.6.1/randomColor.min.js"></script>
+        <script type="module" src="index.js"></script>
         
     </body>
 </html>
